@@ -9,7 +9,7 @@
     /*console.log(nombre)
     const arreglo=[nombre,correo, contra1,validarContra];
     */
-
+/*comentario*/
     
     const arreglo=[nombre];
     arreglo.push(correo);
