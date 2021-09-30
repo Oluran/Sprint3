@@ -18,12 +18,30 @@
     
     console.log(arreglo);
     return(true);
+    
   }
   
+/*module.exports.agregarRegistro=agregarRegistro;*/
 
 
-  
-  
+
+function obtenerUsername(){
+
+    var username1 =document.getElementById("username").value;
+    if((/^d/).test(username1)){
+        var usuariosConNumeros=username1;
+    
+        console.log("usuario con numero:"+ usuariosConNumeros);
+        return usuariosConNumeros;
+    }
+    else{
+        console.log("usuario sin numero");
+    }
+
+
+}
+
+
   
 /*  function checkUsername(valor){
         if (valor !=""){
